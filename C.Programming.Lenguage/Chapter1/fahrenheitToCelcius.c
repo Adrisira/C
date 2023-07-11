@@ -14,6 +14,8 @@ float main()
     upper = 300;
     step = 20;
 
+    printf("Fahrenheit to Celcius \n");
+
     fahr = lower;
     while (fahr <= upper){
         celcius = (5.0/9.0) * (fahr-32.0);
